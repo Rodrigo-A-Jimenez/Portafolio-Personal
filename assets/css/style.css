@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+#mainTitle{
+    color: blue;
+    text-align: center;
+}
+.parr {
+    color: magenta;
+    background-color: black;
+    padding: 20px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#languages {
+    background-image: url("../images/lenguajes.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#languages h2{
+    color: brown;
+    background-color: aliceblue;
+    margin-top: 20px;
+    text-decoration: underline;
+    align-items: center;
+    text-align: center;
+}
+
+.imagesList {
+    list-style: none;
+    padding: 0;
+
+
+}
+
+.imagesList li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imagesList img {
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+.imagesList p {
+    color: yellow;
+    background-color: blueviolet;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
